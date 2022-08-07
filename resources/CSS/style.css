@@ -22,11 +22,7 @@ ul {
 li {
   float: left;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
-}
+
 li a {
   display: block;
   color: white; 
@@ -37,4 +33,9 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
